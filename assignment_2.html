@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+  </head>
+  <style>
+    /* This body style is only for better look */
+    body {
+      width: 80%;
+      margin-left: 10%;
+    }
+    table {
+      width: 100%;
+    }
+    tr,
+    td {
+      height: 20px;
+    }
+    .table1,
+    .table1 td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    .table1 td:nth-child(2) {
+      text-align: center;
+    }
+    .table1 td:nth-child(3) {
+      text-align: right;
+    }
+
+    .table23,
+    .table23 tr,
+    .table23 td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    .table4,
+    .table4 tr,
+    .table4 td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+
+    .table4 td:nth-child(2) {
+      width: 60%;
+    }
+    #image1 {
+      width: 100%;
+    }
+  </style>
+  <body>
+    <!-- Table 1 -->
+    <table class="table1">
+      <tr style="text-align: left">
+        <td>Left</td>
+        <td>Center</td>
+        <td>right</td>
+      </tr>
+      <tr>
+        <td>Left</td>
+        <td>Center</td>
+        <td>right</td>
+      </tr>
+      <tr>
+        <td>Left</td>
+        <td>Center</td>
+        <td>right</td>
+      </tr>
+    </table>
+    <br />
+
+    <!--Table 2-->
+    <table class="table23">
+      <tr>
+        <td colspan="6" style="text-align: center">Heading</td>
+      </tr>
+      <tr>
+        <td colspan="6" style="text-align: center"></td>
+      </tr>
+      <tr>
+        <td rowspan="4"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="3" rowspan="2"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="6" style="text-align: center"></td>
+      </tr>
+    </table>
+
+    <br />
+    <!--Table 3 -->
+    <table class="table23">
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="text-align: center"></td>
+        <td></td>
+        <td rowspan="4" style="text-align: center"></td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+    <br />
+    <!-- Table 4-->
+    <table class="table4">
+      <tr>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <img src="Capture.PNG" alt="animal" id="image1" />
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+      </tr>
+    </table>
+  </body>
+</html>
