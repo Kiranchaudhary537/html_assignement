@@ -1,0 +1,32 @@
+form {
+  margin: 2em;
+}
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+button {
+  margin-top: 2em;
+  display: block;
+}
+label {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+input,
+select,
+textarea {
+  display: block;
+}
+.radiobutton > label {
+  display: inline-flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  div {
+    flex-flow: column wrap;
+  }
+  .radiobutton {
+    flex-flow: column;
+  }
+}
