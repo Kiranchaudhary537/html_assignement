@@ -1,6 +1,6 @@
 # html's assignements
 
-### Assginemt 1-4 of html course are here. checkout below to get specify assignemt
+### Assginemt 1-4 of html course are here. checkout below to get specific assignemt
 
 #### Assigment 1 -> assigment_1.html ,
 
