@@ -1,42 +1,53 @@
 body {
-    width: 80%;
-    margin-left: 10%;
-  }
-  table {
-    width: 100%;
-  }
-  tr,
-  td {
-    height: 20px;
-  }
-  .table1,
-  .table1 td {
-    border: 2px solid black;
-    border-collapse: collapse;
-  }
-  .table1 td:nth-child(2) {
-    text-align: center;
-  }
-  .table1 td:nth-child(3) {
-    text-align: right;
-  }
+  width: 60%;
+  margin: 20px auto;
+}
 
-  .table23,
-  .table23 tr,
-  .table23 td {
-    border: 2px solid black;
-    border-collapse: collapse;
-  }
-  .table4,
-  .table4 tr,
-  .table4 td {
-    border: 2px solid black;
-    border-collapse: collapse;
-  }
+/* Generic Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
-  .table4 td:nth-child(2) {
-    width: 60%;
-  }
-  #image1 {
-    width: 100%;
-  }
+/* Common Row and Cell Styles */
+tr,
+td {
+  height: 20px;
+  border: 2px solid black;
+}
+
+/* Table 1 Styles */
+.data-table td:nth-child(2) {
+  text-align: center;
+}
+
+.data-table td:nth-child(3) {
+  text-align: right;
+}
+
+.data-table tr {
+  text-align: left;
+}
+
+/* Table 2 and Table 3 Styles (Complex Tables) */
+.complex-table tr,
+.complex-table td {
+  text-align: center;
+}
+
+/* Table 4 Styles (Image Table) */
+.image-table td:nth-child(2) {
+  width: 60%;
+}
+
+.image-table .table-header {
+  background-color: rgb(18, 67, 18);
+}
+
+.image-table .table-footer {
+  background-color: rgb(14, 14, 80);
+}
+
+.image-table .table-image {
+  width: 100%;
+}
